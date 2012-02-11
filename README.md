@@ -1,7 +1,7 @@
 # Passport-Digg
 
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
-with Digg using the OAuth 1.0a API.
+with [Digg](http://digg.com/) using the OAuth 1.0a API.
 
 ## Installation
 
