@@ -2,15 +2,29 @@
   "name": "passport-digg",
   "version": "0.1.0",
   "description": "Digg authentication strategy for Passport.",
-  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
   "repository": {
     "type": "git",
-    "url": "http://github.com/jaredhanson/passport-digg.git"
+    "url": "git://github.com/jaredhanson/passport-digg.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/passport-digg/issues"
   },
   "main": "./lib/passport-digg",
   "dependencies": {
-    "passport-oauth": ">= 0.1.0"
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
   "engines": { "node": ">= 0.4.0" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
   "keywords": ["passport", "digg", "auth", "authn", "authentication", "identity"]
 }
