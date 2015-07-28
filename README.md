@@ -1,3 +1,8 @@
+**DEPRECATED:** On July 31, 2012, Digg was relaunched and support for the Digg
+API was removed.  Due to this, Digg no longer implements support for the OAuth
+1.0a API.
+
+
 # Passport-Digg
 
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
